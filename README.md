@@ -8,7 +8,9 @@ This repository contains the setup files to run **MongoDB** alongside **Mongo Ex
 
 1. Download and install **Docker Desktop**:
    - [Windows / Mac / Linux Download Link](https://www.docker.com/products/docker-desktop/)
+   - The installation is pretty straightforward. When asked whether you want to install Docker Desktop just for one user or system-wide, choose one user (the default option)
 2. Make sure Docker Desktop is **running** in the background.
+   - Start Docker Desktop from your applications. Just click on Accept in the initial screen, and then skip registration on the next screen. This should take you to the main Docker Desktop screen.
 
 ---
 
