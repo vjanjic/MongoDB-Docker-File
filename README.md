@@ -24,7 +24,6 @@ This repository contains the setup files to run **MongoDB** alongside **Mongo Ex
 3. Run the following command to start the containers:
    docker compose up -d
 4. That's it! MongoDB as well as its front end should be running now. Exit the terminal by clicking X, and in the main Docker Desktop window, click Containers in the left panel. You should see one container running, with a green light next to it. Expanding this container by clicking on > next to the green light should show mongodb and dbgate running.
-5. Once the container is up and running, check that MongoDB is running by opening your favourite web browser and entering localhost:3000 in the address tab. This should open dbgate interface, where you should see the databases (admin, config and local, by default), plus a bunch of information about the server settings. If this is the case, congratulations, you have MongoDB and interface to it up and running and you can start doing some serious document databasing.
-
+5. Once the container is up and running, check that MongoDB is running by opening your favourite web browser and entering localhost:3000 in the address tab. This should open dbgate interface. You now need to set up MongoDB connection in it. Under Select Connection Type, select MongoDB
 ## How to Start the Database in the Future
 1. In future, whenever you want to start MongoDB, you need to start it from the list of containers in Docker Desktop - no need to mess around with the terminal. Go ahead and try this: first, stop the container by clicking on the stop button (big blue square under Actions for your container), then restart it by clicking on start (the white triangle, again under Actions).
